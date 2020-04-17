@@ -9,6 +9,9 @@ window.addEventListener("DOMContentLoaded", function() {
       burgerMenuLine[i].classList.toggle("active");
     }
   });
+
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
 });
 
 $(function() {
