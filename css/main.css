@@ -302,6 +302,10 @@ ul {
       transform: scale(1.2, 1.2); }
     .works__item:hover .works__text {
       bottom: 0; }
+    .works__item:active .works__image {
+      transform: scale(1.2, 1.2); }
+    .works__item:active .works__text {
+      bottom: 0; }
     @media (max-width: 991px) {
       .works__item {
         flex: 0 1 100%; } }
